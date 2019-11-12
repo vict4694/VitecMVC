@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Produkter";
+    @model IEnumerable<Products>
 }
 <h1 align="center">@ViewData["Title"]</h1>
 
@@ -14,6 +15,7 @@
             <a align="center" href="#" class="btn btn-primary">Bestil nu</a>
         </div>
     </div>
+
     <div class="col-sm-6" style="width:18rem;">
         <img class="card-img-top" src="https://api.fleekframework.com/sites/INTOWORDS.png" alt="Card image cap">
         <div class="card-body">
@@ -22,5 +24,35 @@
             <a href="#" class="btn btn-primary">Bestil nu</a>
         </div>
     </div>
+
 </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Product Description</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in @Model)
+        {
+        <tr>
+            <td>@product.Id</td>
+            <td>@product.Title</td>
+            <td>@product.ProductDescription</td>
+            <td>@product.Price</td>
+            <td>
+                <form method="post" asp-controller="Home" asp-route-id="@product.Id" asp-action="">
+                    <button type="submit" class="btn btn-primary"> Køb </button>
+                </form>
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+
 
