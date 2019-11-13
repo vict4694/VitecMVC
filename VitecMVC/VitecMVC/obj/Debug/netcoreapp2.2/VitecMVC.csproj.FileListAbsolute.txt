@@ -32,3 +32,4 @@ C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC\VitecMVC\obj\Debug\netcoreapp2
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC\VitecMVC\obj\Debug\netcoreapp2.2\VitecMVC.dll
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC\VitecMVC\obj\Debug\netcoreapp2.2\VitecMVC.pdb
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC\VitecMVC\obj\Debug\netcoreapp2.2\VitecMVC.csproj.CopyComplete
+C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC\VitecMVC\obj\Debug\netcoreapp2.2\VitecMVC.csprojAssemblyReference.cache
