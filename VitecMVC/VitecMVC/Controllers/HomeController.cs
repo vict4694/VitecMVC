@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VitecMVC.Models;
+using System.Net.Http;
+using System.Net;
 
 namespace VitecMVC.Controllers
 {
@@ -18,8 +20,11 @@ namespace VitecMVC.Controllers
             _logger = logger;
         }
 
+        private static readonly HttpClient client = new HttpClient();
+        [HttpGet]
         public IActionResult Index()
         {
+
             _logger.LogDebug("Bruger har tilgået Index");
             return View();
         }
@@ -46,7 +51,13 @@ namespace VitecMVC.Controllers
         public IActionResult Produkter()
         {
             _logger.LogDebug("Bruger har tilgået Produkter");
-            return View();
+            IEnumerable<Products> products = new List<Products>();
+            using (WebClient client = new WebClient())
+            {
+                var json = client.DownloadString("https://localhost:44364/api/products");
+                products = Newtonsoft.Json.JsonConvert.DeserializeObject<IEnumerable<Products>>(json);
+            }
+            return View(products);
         }
     }
 }
