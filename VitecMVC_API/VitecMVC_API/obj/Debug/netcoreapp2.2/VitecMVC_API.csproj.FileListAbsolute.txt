@@ -28,4 +28,3 @@ C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC_API\VitecMVC_API\obj\Debug\net
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC_API\VitecMVC_API\obj\Debug\netcoreapp2.2\VitecMVC_API.RazorTargetAssemblyInfo.cache
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC_API\VitecMVC_API\obj\Debug\netcoreapp2.2\VitecMVC_API.dll
 C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC_API\VitecMVC_API\obj\Debug\netcoreapp2.2\VitecMVC_API.pdb
-C:\Users\Ander\Documents\GitHub\VitecMVC\VitecMVC_API\VitecMVC_API\obj\Debug\netcoreapp2.2\VitecMVC_API.csprojAssemblyReference.cache
