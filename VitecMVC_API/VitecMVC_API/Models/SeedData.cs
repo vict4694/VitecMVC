@@ -22,21 +22,21 @@ namespace VitecMVC_API.Models
                 }
 
                 context.Product.AddRange(
-                    new Product
+                    new Products
                     {
                         Title = "CD-ORD",
                         ProductDescription = "Til dig, der er pisse blind og bare savner diktat i folkeren",
                         Price = 441
                     },
 
-                    new Product
+                    new Products
                     {
                         Title = "Into-Words ",
                         ProductDescription = "Lær at læs nemt af helvede til",
                         Price = 554
                     },
 
-                    new Product
+                    new Products
                     {
                         Title = "Læsebriller",
                         ProductDescription = "Hvis du er pisse blind, men kun tæt på",

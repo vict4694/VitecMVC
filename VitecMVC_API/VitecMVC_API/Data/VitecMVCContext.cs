@@ -14,6 +14,6 @@ namespace VitecMVC_API.Data
         {
         }
 
-        public DbSet<Product> Product { get; set; }
+        public DbSet<Products> Product { get; set; }
     }
 }

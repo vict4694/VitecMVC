@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VitecMVC", "VitecMVC\VitecMVC.csproj", "{18AE32CD-9B45-4920-AA3E-804067CF6D7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VitecMVC", "VitecMVC.csproj", "{5C0950B0-42ED-4035-AAAC-4D6D8C66A6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18AE32CD-9B45-4920-AA3E-804067CF6D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18AE32CD-9B45-4920-AA3E-804067CF6D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18AE32CD-9B45-4920-AA3E-804067CF6D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18AE32CD-9B45-4920-AA3E-804067CF6D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0950B0-42ED-4035-AAAC-4D6D8C66A6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0950B0-42ED-4035-AAAC-4D6D8C66A6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0950B0-42ED-4035-AAAC-4D6D8C66A6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0950B0-42ED-4035-AAAC-4D6D8C66A6EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {56A7E7F1-BFCD-4CE6-8F2A-739E81186E3A}
+		SolutionGuid = {D1FB415A-014D-4676-B212-FA3F46C26B7A}
 	EndGlobalSection
 EndGlobal

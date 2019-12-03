@@ -23,14 +23,14 @@ namespace VitecMVC_API.Controllers
 
         // GET: api/Products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
+        public async Task<ActionResult<IEnumerable<Products>>> GetProduct()
         {
             return await _context.Product.ToListAsync();
         }
 
         // GET: api/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Product>> GetProduct(int id)
+        public async Task<ActionResult<Products>> GetProduct(int id)
         {
             var product = await _context.Product.FindAsync(id);
 
@@ -44,7 +44,7 @@ namespace VitecMVC_API.Controllers
 
         // PUT: api/Products/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutProduct(int id, Product product)
+        public async Task<IActionResult> PutProduct(int id, Products product)
         {
             if (id != product.Id)
             {
@@ -74,7 +74,7 @@ namespace VitecMVC_API.Controllers
 
         // POST: api/Products
         [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<ActionResult<Products>> PostProduct(Products product)
         {
             _context.Product.Add(product);
             await _context.SaveChangesAsync();
@@ -84,7 +84,7 @@ namespace VitecMVC_API.Controllers
 
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Product>> DeleteProduct(int id)
+        public async Task<ActionResult<Products>> DeleteProduct(int id)
         {
             var product = await _context.Product.FindAsync(id);
             if (product == null)
